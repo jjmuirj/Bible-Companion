@@ -3,7 +3,11 @@ let plan=[], current=null;
 const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
 const doneSet=()=>new Set(JSON.parse(localStorage.getItem("bibleDone")||"[]"));
 const saveDone=s=>localStorage.setItem("bibleDone",JSON.stringify([...s].sort((a,b)=>a-b)));
-function todayISO(){return new Date().toLocaleDateString("en-CA")}
+function todayISO(){
+  const d=new Date();
+  const y=d.getFullYear(), m=String(d.getMonth()+1).padStart(2,"0"), day=String(d.getDate()).padStart(2,"0");
+  return `${y}-${m}-${day}`;
+}
 function pickToday(){
   const t=todayISO(); let x=plan.find(r=>r.date===t);
   if(x) return x;

@@ -1,39 +1,54 @@
-BIBLE COMPANION FINAL AUDIT
+BIBLE COMPANION — FINAL COMPLETE APP AUDIT
 
-Calendar
+Result: PASS
+
+Schedule
 - Reading days: 521
-- First day: 2027-01-01 (Genesis 1–2)
-- Last day: 2028-12-29 (Revelation 21–22)
-- Monday-Friday only: YES
+- Day numbering: continuous 1–521
+- First reading: 2027-01-01 — Genesis 1–2
+- Last reading: 2028-12-29 — Revelation 21–22
+- Monday–Friday only: YES
+- Weekend reading dates: 0
+- Date-sequence errors: 0
 
 Bible coverage
-- Bible chapters represented: 1189
-- Unique Bible chapters represented: 1189
-- Expected chapters: 1189
+- Books represented: 66 of 66
+- Bible chapters represented: 1,189
+- Unique Bible chapters represented: 1,189
 - Missing chapters: 0
-- Duplicate chapters in schedule: 0
-- All 66 books included: YES
+- Duplicate chapters: 0
+- Reading load: 1–3 chapters per reading day
 
-Reading load
-- Minimum chapters/day: 1
-- Maximum chapters/day: 3
-- Average chapters/day: 2.28
+Commentary/content
+- Daily entries with title: 521 of 521
+- Daily entries with explanation: 521 of 521
+- Daily entries with difficult-text section: 521 of 521
+- Daily entries with connections section: 521 of 521
+- Daily entries marked deep rewrite: 521 of 521
+- Generic fallback entries: 0
+- Exact duplicate explanations: 0
+- Exact duplicate difficult-text sections: 0
+- Exact duplicate connections sections: 0
+- Commentary length range: 448–881 words
+- Median commentary length: 586 words
+- Average commentary length: 593.2 words
+- Entries below 400 words: 0
 
-Commentary
-- Authored commentary records available after merging batches: 455
-- Daily readings using a matched authored commentary unit: 520
-- Daily readings using generic fallback: 1
+App/PWA
+- Required app files present: YES
+- JavaScript syntax check: PASS
+- Manifest includes 192px and 512px PNG icons: YES
+- Apple home-screen icon present: YES
+- Offline service-worker asset list present: YES
+- Cache version: bible-companion-v48
+- Old-cache cleanup: YES
+- Immediate service-worker activation on update: YES
+- Completion tracking remains local to device (localStorage)
+- Local date calculation made locale-independent for iPhone/browser reliability
 
-Important editorial note
-The schedule is broadly chronological at the book/era level rather than a speculative verse-by-verse harmony.
-Psalms are placed in the Davidic/monarchy era; prophets are placed around monarchy, exile, and return.
-The four Gospels remain readable as whole books. New Testament letters are placed in a broadly chronological sequence after Acts.
-Some daily readings are narrower than the originally authored commentary unit; in those cases the explanation intentionally covers the surrounding literary section.
+Editorial note
+- The schedule is broadly chronological at the book/era level rather than a speculative verse-by-verse harmony.
+- Psalms are placed in the Davidic/monarchy era; prophets around monarchy, exile, and return.
+- The four Gospels remain readable as whole books. New Testament letters are placed in a broadly chronological sequence after Acts.
 
-FINAL CLEANUP
-- Empty title/difficult-text/connection fields: 0
-- Generic commentary fallbacks: 0
-- iPhone PNG home-screen icon: added
-- Offline cache versioning and old-cache cleanup: added
-- Saturday catch-up / Sunday church-day messaging: added
-- Final data validation: passed
+Final audit date: 2026-09-22
