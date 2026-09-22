@@ -1,0 +1,39 @@
+BIBLE COMPANION FINAL AUDIT
+
+Calendar
+- Reading days: 521
+- First day: 2027-01-01 (Genesis 1–2)
+- Last day: 2028-12-29 (Revelation 21–22)
+- Monday-Friday only: YES
+
+Bible coverage
+- Bible chapters represented: 1189
+- Unique Bible chapters represented: 1189
+- Expected chapters: 1189
+- Missing chapters: 0
+- Duplicate chapters in schedule: 0
+- All 66 books included: YES
+
+Reading load
+- Minimum chapters/day: 1
+- Maximum chapters/day: 3
+- Average chapters/day: 2.28
+
+Commentary
+- Authored commentary records available after merging batches: 455
+- Daily readings using a matched authored commentary unit: 520
+- Daily readings using generic fallback: 1
+
+Important editorial note
+The schedule is broadly chronological at the book/era level rather than a speculative verse-by-verse harmony.
+Psalms are placed in the Davidic/monarchy era; prophets are placed around monarchy, exile, and return.
+The four Gospels remain readable as whole books. New Testament letters are placed in a broadly chronological sequence after Acts.
+Some daily readings are narrower than the originally authored commentary unit; in those cases the explanation intentionally covers the surrounding literary section.
+
+FINAL CLEANUP
+- Empty title/difficult-text/connection fields: 0
+- Generic commentary fallbacks: 0
+- iPhone PNG home-screen icon: added
+- Offline cache versioning and old-cache cleanup: added
+- Saturday catch-up / Sunday church-day messaging: added
+- Final data validation: passed

@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#253a32"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"><title>Bible Reading Companion</title></head><body>
+<header><div class="wrap"><div class="brand">Bible Reading Companion</div><div class="sub">Two-year chronological plan · Monday–Friday</div>
+<nav><button data-view="todayView" class="active">Today</button><button data-view="planView">Plan</button><button data-view="settingsView">Settings</button></nav></div></header>
+<main class="wrap">
+<section id="todayView"><div class="card"><div id="dayEyebrow" class="eyebrow"></div><h1 id="dayTitle"></h1><div id="daySubtitle" class="meta"></div><div id="todayStatus" class="note hidden" style="margin-top:14px"></div>
+<h2>Understanding the reading</h2><p id="explanation"></p><h2>Difficult text / likely question</h2><div class="note" id="difficult"></div>
+<h2>Biblical and Christ connection</h2><p id="connections"></p>
+<div class="actions"><button id="prevBtn">Previous</button><button id="doneBtn" class="primary">Mark completed</button><button id="nextBtn">Next</button></div></div>
+<div class="card"><strong id="progressText"></strong><div class="progress"><div id="progressBar"></div></div><div class="actions"><button id="continueBtn">Continue with first unfinished day</button></div></div></section>
+<section id="planView" class="hidden"><div class="card"><h1>Reading plan</h1><input id="search" placeholder="Search book, title, or date"><div id="planList"></div></div></section>
+<section id="settingsView" class="hidden"><div class="card"><h1>Settings</h1><p>Your completion history is stored only in this browser on this device. The app has no account, analytics, or server database.</p>
+<p>After the first successful load, the app is cached for offline use.</p><button id="resetBtn">Clear completion history</button></div></section>
+</main><script src="app.js"></script></body></html>
